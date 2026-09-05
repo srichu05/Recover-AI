@@ -1,0 +1,8 @@
+Scenario ID,Scenario Name,Transactions,Revenue at Risk (INR),Baseline Recovered (INR),Baseline Rate (%),RecoverAI Recovered (INR),RecoverAI Rate (%),Improvement (%),Escalations,Policy Stops,Invariants Passed
+SCENARIO_A,Normal Traffic Baseline,200,87549.22,28693.03,32.77,1227.53,1.40,-95.72,7,4,True
+SCENARIO_B,Mild Degradation,300,666494.38,29361.80,4.41,274797.00,41.23,835.90,4,10,True
+SCENARIO_C,Severe UPI Degradation,500,1390543.18,751416.08,54.04,656055.74,47.18,-12.69,8,21,True
+SCENARIO_D,Permanent Failure Safeguard,200,0.00,0.00,0.00,0.00,0.00,0.00,1,44,True
+SCENARIO_E,Retry Limit Guardrail,200,451320.61,0.00,0.00,18339.93,4.06,100.00,3,42,True
+SCENARIO_F,High-Value Monetary Guardrail,150,2700000.00,2025000.00,75.00,0.00,0.00,-100.00,36,0,True
+SCENARIO_G,Low-Confidence Escalation,150,340855.00,0.00,0.00,0.00,0.00,0.00,29,0,True
