@@ -52,8 +52,8 @@
         },
         "agent_metrics": {
           "strategy": "RECOVER_AI",
-          "run_id": "run_086584d9",
-          "incident_id": "inc_bba23936",
+          "run_id": "run_ca5183dc",
+          "incident_id": "inc_5ab925b3",
           "total_transactions": 200,
           "failed_transactions": 12,
           "revenue_at_risk_paise": 8754922,
@@ -106,8 +106,8 @@
         },
         "agent_metrics": {
           "strategy": "RECOVER_AI",
-          "run_id": "run_8b6de7b9",
-          "incident_id": "inc_a7c518af",
+          "run_id": "run_a533183e",
+          "incident_id": "inc_60c976d9",
           "total_transactions": 300,
           "failed_transactions": 69,
           "revenue_at_risk_paise": 66649438,
@@ -160,8 +160,8 @@
         },
         "agent_metrics": {
           "strategy": "RECOVER_AI",
-          "run_id": "run_7133cd93",
-          "incident_id": "inc_dd897d1a",
+          "run_id": "run_b75ee746",
+          "incident_id": "inc_9321f20e",
           "total_transactions": 500,
           "failed_transactions": 155,
           "revenue_at_risk_paise": 139054318,
@@ -214,8 +214,8 @@
         },
         "agent_metrics": {
           "strategy": "RECOVER_AI",
-          "run_id": "run_cce0f4ff",
-          "incident_id": "inc_8382b803",
+          "run_id": "run_010c88ba",
+          "incident_id": "inc_7e881390",
           "total_transactions": 200,
           "failed_transactions": 45,
           "revenue_at_risk_paise": 0,
@@ -268,8 +268,8 @@
         },
         "agent_metrics": {
           "strategy": "RECOVER_AI",
-          "run_id": "run_89e01f3e",
-          "incident_id": "inc_37534098",
+          "run_id": "run_568bdfc7",
+          "incident_id": "inc_cce4edd9",
           "total_transactions": 200,
           "failed_transactions": 48,
           "revenue_at_risk_paise": 45132061,
@@ -322,8 +322,8 @@
         },
         "agent_metrics": {
           "strategy": "RECOVER_AI",
-          "run_id": "run_e692b8a4",
-          "incident_id": "inc_e422bb98",
+          "run_id": "run_22475eb8",
+          "incident_id": "inc_e3cbee39",
           "total_transactions": 150,
           "failed_transactions": 36,
           "revenue_at_risk_paise": 270000000,
@@ -376,8 +376,8 @@
         },
         "agent_metrics": {
           "strategy": "RECOVER_AI",
-          "run_id": "run_91a1ce79",
-          "incident_id": "inc_8826e912",
+          "run_id": "run_f5c032fb",
+          "incident_id": "inc_368cce23",
           "total_transactions": 150,
           "failed_transactions": 29,
           "revenue_at_risk_paise": 34085500,
@@ -396,6 +396,6 @@
       }
     }
   ],
-  "generated_at": "2026-09-05T22:54:49.489459",
+  "generated_at": "2026-09-05T23:40:27.388673",
   "invariants_passed": true
 }

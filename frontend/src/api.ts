@@ -7,7 +7,9 @@ import type {
   EvaluationSummary
 } from './types';
 
-const API_BASE = '/api';
+// Supports dynamic VITE_API_URL for Vercel/Render separate deployment
+const BACKEND_URL = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
+const API_BASE = BACKEND_URL ? `${BACKEND_URL}/api` : '/api';
 
 export async function fetchDashboardSummary(): Promise<DashboardSummary> {
   const res = await fetch(`${API_BASE}/dashboard/summary`);

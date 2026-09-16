@@ -35,6 +35,12 @@ data/*.sqlite3
 data/*.sqlite
 *.log
 
+# Large Media & Video Files
+*.mp4
+*.mov
+*.avi
+*.mkv
+
 # IDE & OS
 .vscode/
 .idea/
